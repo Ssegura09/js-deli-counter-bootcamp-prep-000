@@ -2,6 +2,13 @@
 //   katzDeliLine.push(name)
 //   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 // }
+function takeANumber(katzDeliLine, number){
+  katzDeliLine.push(number)
+return `Welcome, ${number}. You are number ${katzDeliLine.length} in line.`;
+ }
+
+
+
 function nowServing(katzDeliLine){
   if (katzDeliLine.length > 0)
   return `Currently serving ${katzDeliLine.shift()}.`;
