@@ -17,7 +17,8 @@ function currentLine(katzDeliLine){
     for (let i=0; i < katzDeliLine.length; i++){
       newLine[i] = `${[i+1]}. ${katzDeliLine[i]}`;
     }
-    
+    string += newLine.join(', ')
+    return string;
   }
 }
 
